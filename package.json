@@ -1,0 +1,23 @@
+{
+  "name": "tet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "google-apis": "^1.0.0",
+    "mongo": "^0.1.0",
+    "mysql": "^2.18.1",
+    "require": "^2.4.20"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
