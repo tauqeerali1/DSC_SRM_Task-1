@@ -5,10 +5,10 @@ const bodyparser = require('body-parser');
 app.use(bodyparser.json());
 
 var mysqlConnection = mysql.createConnection({
-	host: 'localhost',
-	user: 'root',
-	password: '9636463361',
-	database: 'EmployeeDB',
+	host: '',
+	user: '',
+	password: '',
+	database: '',
 	multipleStatements: true
 });
 
