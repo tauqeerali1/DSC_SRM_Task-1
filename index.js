@@ -57,7 +57,6 @@ app.delete('/employees/:id',(req,res)=>{
 
 });
 
-
 //Insert an employees
 app.post('/employees',(req,res)=>{
 	let emp = req.body;
@@ -74,7 +73,6 @@ app.post('/employees',(req,res)=>{
 	})
 
 });
-
 
 //Update an employees
 app.put('/employees',(req,res)=>{
