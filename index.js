@@ -45,7 +45,6 @@ app.get('/employees/:id',(req,res)=>{
 
 });
 
-
 //Delete an employees
 app.delete('/employees/:id',(req,res)=>{
 	mysqlConnection.query('DELETE FROM employee WHERE EmpId = ?',[req.params.id],(err, rows, fields)=>{
